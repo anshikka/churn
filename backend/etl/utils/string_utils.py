@@ -1,0 +1,2 @@
+def create_api_endpoint(api_base_url, api_category, api_service, api_endpoint, api_limit):
+    return api_base_url + '/' + api_category + '/' + api_service + '/' + api_endpoint + '?limit=' + str(api_limit)
